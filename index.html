@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="AppIcon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransVoice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e6253264e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="welcome-page">
+        <h3 id="ex"></h3>
+        <img src="AppLogo.png" id="WlcomePageLogo" alt="">
+        <h1 id="sayHi">Welcome to TransVoice</h1>
+    </div>
+    <header>
+        <div class="container">
+            <img src="AppLogo.png" class="main-icon">
+            <h1>TransVoice</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="containBox">
+                <input type="text" id="text" placeholder="Write anything you want to Listen">
+                <!-- <span id="cross">x</span> -->
+                <i class="fa-solid fa-xmark" id="cross"></i>
+                <div class="control">
+                    <div class="speed">
+                        <div class="speedUnites">
+                            <i class="fa-solid fa-gauge"></i>
+                            <input type="number" name="spead" id="spead" min="0.5" max="3" step=".5" value="1">
+                        </div>
+                        <p>Speed</p>
+                    </div>
+                    <div class="play">
+                        <i class="fa-solid fa-circle-play" id="play-btn"></i>
+                        <p>Play</p>
+                    </div>
+                    <div class="pause">
+                        <i class="fa-solid fa-circle-pause" id="pause-btn"></i>
+                        <p>Pause</p>
+                    </div>
+                    <div class="stop">
+                        <i class="fa-solid fa-circle-stop" id="stop-btn"></i>
+                        <p>stop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>Developed by <a href="https://www.facebook.com/profile.php?id=100024102561034" target="_blank">Mohammed Salih</a></footer>
+    <script src="main.js"></script>
+</body>
+</html>
